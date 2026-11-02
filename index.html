@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PJK SimpliCode | Cursos de programação do zero ao primeiro emprego</title>
+  <meta name="description" content="Aprenda programação com projetos reais, mentoria e um assistente virtual que tira suas dúvidas a qualquer hora.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#inicio">Ir para o conteúdo</a>
+
+  <p class="faixa">
+    <span>Aulas curtas, em português</span>
+    <span class="faixa__sep" aria-hidden="true"></span>
+    <span>Um projeto por módulo</span>
+    <span class="faixa__sep" aria-hidden="true"></span>
+    <span>Tudo roda no navegador</span>
+  </p>
+
+  <header class="topo">
+    <div class="container topo__barra">
+      <a class="marca" href="#inicio" aria-label="PJK SimpliCode, página inicial">
+        <img src="img/logo.svg" alt="" width="44" height="44">
+        <span class="marca__nome"><b>PJK</b> <i>SimpliCode</i></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
+      <span class="brilho brilho--1" aria-hidden="true"></span>
+      <span class="brilho brilho--2" aria-hidden="true"></span>
+      <span class="brilho brilho--3" aria-hidden="true"></span>
+      <div class="container hero__grade">
+        <div class="hero__texto">
+          <p class="recado">programar é pra todo mundo</p>
+          <h1>Seu primeiro código roda hoje. <em>O primeiro emprego vem depois.</em></h1>
+          <p>Cursos de programação para quem está começando do zero, com projetos reais, mentoria e um assistente virtual para tirar dúvidas a qualquer hora.</p>
+          <div class="hero__acoes">
+            <a class="btn btn--sol" href="#cursos">Ver cursos</a>
+            <a class="btn btn--contorno" href="#contato">Quero me inscrever</a>
+          </div>
+        </div>
+        <div class="moldura-xadrez">
+          <div class="editor" aria-label="Exemplo de código sendo digitado">
+            <div class="editor__barra">
+              <span class="ponto"></span><span class="ponto"></span><span class="ponto"></span>
+              <span class="editor__arquivo">primeiro_codigo.py</span>
+            </div>
+            <pre class="editor__codigo" id="codigoHero" aria-hidden="true"></pre>
+            <noscript><pre class="editor__codigo">nome = "Teresina"
+print(f"Olá, {nome}!")</pre></noscript>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao secao--rasgada">
+      <div class="container sobre">
+        <div>
+          <h2>Aprender a programar não precisa ser solitário</h2>
+          <p>A PJK SimpliCode nasceu para quem quer entrar na tecnologia sem sair da sua realidade. As aulas são curtas, em português, e cada módulo termina com algo que você pode mostrar no seu GitHub.</p>
+          <p>Para público iniciante, estudantes e quem está migrando de área. Você não precisa de computador potente: tudo roda no navegador ou em um notebook simples.</p>
+        </div>
+        <ol class="passos">
+          <li><strong>Escolha uma trilha</strong><span>Comece pelo nível em que você está, sem pular etapas.</span></li>
+          <li><strong>Construa um projeto por módulo</strong><span>Site, jogo, automação ou análise de dados, tudo versionado no Git.</span></li>
+          <li><strong>Tire dúvidas com o Byte</strong><span>O assistente responde na hora; a mentoria humana revisa seu código.</span></li>
+          <li><strong>Monte seu portfólio</strong><span>Ao final, você tem repositórios e um currículo técnico revisado.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CURSOS -->
+    <section id="cursos" class="secao secao--cursos">
+      <div class="container">
+        <p class="recado recado--escuro">escolha por onde começar</p>
+        <h2>Cursos</h2>
+        <p class="secao__intro">Cada curso é independente, mas a ordem abaixo é a mais tranquila para iniciantes.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="card__tag">PY</span>
+            <h3>Lógica e Python do zero</h3>
+            <p>Variáveis, condições, laços e funções com exercícios resolvidos passo a passo.</p>
+            <ul><li>32 horas</li><li>Nível iniciante</li><li>Projeto: jogo de adivinhação</li></ul>
+            <p class="card__preco">R$ 197</p>
+            <a class="btn btn--escuro" href="#contato" data-curso="Lógica e Python do zero">Quero este curso</a>
+          </article>
+          <article class="card">
+            <span class="card__tag">JS</span>
+            <h3>Web: HTML, CSS e JavaScript</h3>
+            <p>Crie sites responsivos e interativos, do layout ao formulário funcionando.</p>
+            <ul><li>40 horas</li><li>Nível iniciante</li><li>Projeto: site de uma loja</li></ul>
+            <p class="card__preco">R$ 297</p>
+            <a class="btn btn--escuro" href="#contato" data-curso="Web: HTML, CSS e JavaScript">Quero este curso</a>
+          </article>
+          <article class="card">
+            <span class="card__tag">IA</span>
+            <h3>Python para Inteligência Artificial</h3>
+            <p>Dados, gráficos e seu primeiro modelo de IA, além de como usar APIs de IA em projetos.</p>
+            <ul><li>36 horas</li><li>Requer noções de Python</li><li>Projeto: chatbot com persona</li></ul>
+            <p class="card__preco">R$ 347</p>
+            <a class="btn btn--escuro" href="#contato" data-curso="Python para Inteligência Artificial">Quero este curso</a>
+          </article>
+          <article class="card">
+            <span class="card__tag">GIT</span>
+            <h3>Git e GitHub na prática</h3>
+            <p>Commits, branches e trabalho em equipe, como funciona em empresas de verdade.</p>
+            <ul><li>12 horas</li><li>Nível iniciante</li><li>Projeto: repositório em dupla</li></ul>
+            <p class="card__preco">R$ 97</p>
+            <a class="btn btn--escuro" href="#contato" data-curso="Git e GitHub na prática">Quero este curso</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section id="planos" class="secao secao--planos">
+      <div class="container">
+        <h2>Prefere assinar? Escolha um plano</h2>
+        <p class="secao__intro">Os planos dão acesso a todos os cursos enquanto estiverem ativos. Cancele quando quiser.</p>
+        <div class="planos">
+          <article class="plano">
+            <h3>Essencial</h3>
+            <p class="plano__preco">R$ 49<small>/mês</small></p>
+            <ul><li>Todos os cursos</li><li>Comunidade de alunos</li><li>Assistente Byte</li></ul>
+            <a class="btn btn--contorno-escuro" href="#contato" data-curso="Plano Essencial">Assinar</a>
+          </article>
+          <article class="plano plano--destaque">
+            <h3>Trilha completa</h3>
+            <p class="plano__preco">R$ 89<small>/mês</small></p>
+            <ul><li>Tudo do Essencial</li><li>Certificados</li><li>Revisão de portfólio</li></ul>
+            <a class="btn btn--sol" href="#contato" data-curso="Plano Trilha completa">Assinar</a>
+          </article>
+          <article class="plano">
+            <h3>Mentoria</h3>
+            <p class="plano__preco">R$ 149<small>/mês</small></p>
+            <ul><li>Tudo da Trilha completa</li><li>2 encontros por mês com mentor</li><li>Simulação de entrevista</li></ul>
+            <a class="btn btn--contorno-escuro" href="#contato" data-curso="Plano Mentoria">Assinar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao secao--clara">
+      <div class="container contato">
+        <div>
+          <p class="recado recado--escuro">vamos começar?</p>
+          <h2>Faça sua inscrição</h2>
+          <p>Preencha o formulário e nossa equipe responde em até 1 dia útil. Se preferir, converse agora com o Byte no botão no canto da tela.</p>
+          <p class="contato__info">contato@pjksimplicode.exemplo<br>Teresina, Piauí</p>
+        </div>
+        <div class="moldura-vichy">
+        <form id="formInscricao" class="form" novalidate>
+          <label for="nome">Nome completo</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" required minlength="3">
+          <p class="erro" data-erro-de="nome"></p>
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <p class="erro" data-erro-de="email"></p>
+
+          <label for="nivel">Seu nível hoje</label>
+          <select id="nivel" name="nivel" required>
+            <option value="">Selecione</option>
+            <option>Nunca programei</option>
+            <option>Já fiz alguns exercícios</option>
+            <option>Já fiz projetos pequenos</option>
+          </select>
+          <p class="erro" data-erro-de="nivel"></p>
+
+          <label for="interesse">Curso ou plano de interesse</label>
+          <select id="interesse" name="interesse" required>
+            <option value="">Selecione</option>
+            <option>Lógica e Python do zero</option>
+            <option>Web: HTML, CSS e JavaScript</option>
+            <option>Python para Inteligência Artificial</option>
+            <option>Git e GitHub na prática</option>
+            <option>Plano Essencial</option>
+            <option>Plano Trilha completa</option>
+            <option>Plano Mentoria</option>
+          </select>
+          <p class="erro" data-erro-de="interesse"></p>
+
+          <label for="mensagem">Mensagem (opcional)</label>
+          <textarea id="mensagem" name="mensagem" rows="3" maxlength="500"></textarea>
+
+          <button class="btn btn--sol" type="submit">Enviar inscrição</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__grade">
+      <div>
+        <a class="marca marca--clara" href="#inicio"><img src="img/logo.svg" alt="" width="36" height="36"><span class="marca__nome"><b>PJK</b> <i>SimpliCode</i></span></a>
+        <p>Programação em português, do zero ao primeiro emprego.</p>
+      </div>
+      <nav aria-label="Links do rodapé">
+        <a href="#sobre">Sobre</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <p class="rodape__nota">Projeto acadêmico fictício, desenvolvido para a disciplina de Desenvolvimento Web para IA.<br>&copy; 2026 PJK SimpliCode</p>
+    </div>
+  </footer>
+
+  <!-- CHATBOT -->
+  <button class="chat-botao" id="chatAbrir" aria-label="Abrir conversa com o Byte" aria-expanded="false" aria-controls="chatJanela">
+    <span class="chat-botao__icone" aria-hidden="true">&lt;/&gt;</span>
+    <span>Falar com o Byte</span>
+  </button>
+  <section class="chat" id="chatJanela" hidden aria-label="Conversa com o Byte, assistente da PJK SimpliCode">
+    <header class="chat__topo">
+      <div>
+        <strong>Byte</strong>
+        <span>Mentor virtual da PJK SimpliCode</span>
+      </div>
+      <button id="chatFechar" aria-label="Fechar conversa">&times;</button>
+    </header>
+    <div class="chat__mensagens" id="chatMensagens" aria-live="polite"></div>
+    <div class="chat__sugestoes" id="chatSugestoes">
+      <button type="button">Por onde começo?</button>
+      <button type="button">Quanto custa?</button>
+      <button type="button">Como me inscrevo?</button>
+    </div>
+    <form class="chat__form" id="chatForm" autocomplete="off">
+      <input id="chatEntrada" type="text" placeholder="Digite sua dúvida" maxlength="400" aria-label="Sua mensagem">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
