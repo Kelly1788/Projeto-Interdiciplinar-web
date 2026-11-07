@@ -8,9 +8,9 @@ Site de venda de cursos de programação, com um assistente de IA chamado **Byte
 
 | Nome | Responsabilidade principal |
 |------|----------------------------|
-| _Nome do integrante 1_ | HTML e CSS (layout, cards, responsividade) |
-| _Nome do integrante 2_ | JavaScript (menu, formulário) e imagens |
-| _Nome do integrante 3_ | Servidor, chatbot e persona da IA |
+| Karina Lira De Almeida | HTML e CSS (layout, cards, responsividade) |
+| Paula Beron Silva Cardoso | JavaScript (menu, formulário) e imagens |
+| Jennifer Kelly Cunha Santos | Servidor, chatbot e persona da IA |
 
 ## Público-alvo
 
@@ -25,11 +25,11 @@ Iniciantes, estudantes e pessoas em transição de carreira que querem aprender 
 
 ## Instalação e execução
 
-Pré-requisito: [Node.js](https://nodejs.org) 18 ou superior.
+Pré-requisito: [Node.js](https://nodejs.org) 20 ou superior.
 
 ```bash
-git clone <URL-DO-REPOSITORIO>
-cd pjk-simplicode
+git clone https://github.com/Kelly1788/Projeto-Interdisciplinar-web.git
+cd Projeto-Interdisciplinar-web
 npm install
 cp .env.example .env     # no Windows: copy .env.example .env
 ```
