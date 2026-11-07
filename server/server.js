@@ -8,7 +8,7 @@ const { PERSONA } = require('./persona');
 const RAIZ = path.join(__dirname, '..');
 const PORTA = process.env.PORT || 3000;
 const CHAVE = process.env.GEMINI_API_KEY;
-const MODELO = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
+const MODELO = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
 
 const app = express();
 app.use(express.json({ limit: '20kb' }));
