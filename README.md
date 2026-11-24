@@ -1,5 +1,7 @@
 # PJK SimpliCode
 
+🔗 **Site publicado:** https://projeto-interdisciplinar-web.onrender.com
+
 Site de venda de cursos de programação, com um assistente de IA chamado **Byte**. Projeto da AV3 (Parte 1) da disciplina de Desenvolvimento Web para IA, Bacharelado em Inteligência Artificial, Faculdade Estadual Piauí, Instituto de Tecnologia (PIT).
 
 > Cenário fictício: a PJK SimpliCode é uma escola online de Teresina (PI) que ensina programação do zero para quem quer entrar na área de tecnologia.
@@ -39,7 +41,6 @@ Abra o arquivo `.env` e coloque sua chave do Gemini (gratuita em https://aistudi
 ```bash
 npm start
 ```
-
 Acesse **http://localhost:3000**.
 
 ## Funcionalidades
